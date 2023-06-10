@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +9,41 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.error {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffe8e8;
+  color: red;
+  font-size: 20px;
+}
+
+.loader {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efeeff;
+  color: blue;
+  font-size: 20px;
+}
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #efffee;
+}
+
+.post {
+  margin-bottom: 8px;
+  color: rgb(0, 49, 2);
+  font-size: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
